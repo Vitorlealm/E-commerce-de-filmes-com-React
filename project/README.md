@@ -1,0 +1,1 @@
+Para colocar o projeto em plena operação, basta entrar pelo terminal na pasta "project" e então digitar "npm start".

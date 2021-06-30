@@ -1,0 +1,97 @@
+body{
+  background-color: #1D2226;
+  height: auto;
+  width: 100%;
+}
+
+
+.bodyContainer{
+  display: flex;
+  background-color: #1D2226;
+  flex-basis: auto;
+  height: auto;
+  flex-grow: 1;
+}
+
+
+
+
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background-color: #1d2d3a;
+  color: white;
+}
+.head svg{
+  margin:0 70px 0  150px;
+}
+.head p{
+  padding: 0 20px 0 70px;
+}
+.head input{
+  display: flex;
+  width: 100%;
+  background-color: #171B1E ;
+  border-radius: 5px;
+  height: 100%;
+  border: none;
+  color: white;
+  font-size: 18px;
+  
+}
+.head form{
+  width: 70%;
+  height: 50%;
+}
+.head img{
+  margin-right: 80px;
+  border-radius: 50%;
+  border: solid pink 3px;
+}
+
+
+
+
+.moviesContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #1D2226;
+  flex-basis: 500px;
+  height: 100vh;
+  flex-grow: 2;
+  color: white;
+}
+.moviesContainer h1{
+  margin: 30px auto 15px 100px;
+
+}
+.topCards{
+  display: flex;
+  margin-left: 100px;
+  flex-wrap: wrap;
+}
+.allCards{
+  display: flex;
+  margin-left: 100px;
+  flex-wrap: wrap;
+}
+
+
+
+.chartContainer{
+  display: flex;
+  background-color: #1D2226;
+  flex-basis: 20px;
+  height: 100vh;
+  flex-grow: 1;
+  margin-top: 30px;
+}
+.fixedChart{
+  background-color: #171B1E;
+  position: fixed;
+  width: 310px;
+  height: auto;
+}

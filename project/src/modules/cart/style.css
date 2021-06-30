@@ -1,0 +1,94 @@
+.empty{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    background-color: #171B1E;
+    align-items: center;
+}.cartTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(161, 114, 204);
+    height: 40px;
+    width: 100%;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.empty h2, .empty h4{
+    color: white;
+}
+
+
+
+
+.full{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height:  120px;
+    background-color: #171B1E;
+    align-items: center;
+}
+.movie{
+    display: flex;
+    align-items: center;
+    background-color: #171B1E;
+    width: 90%;
+    height: 100px;
+    
+}.img{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 50px;
+}.contentTitle{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contentTitle h1, .contentTitle h2{
+    color: white;
+    font-size: 15px;
+    margin: 5px 5px;
+}
+.controlButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.controlButtons button{
+    background-color: unset;
+    border: unset;
+    cursor: pointer;
+    
+  }
+  
+  .controlButtons h1{
+      color: white;
+  }
+
+
+
+  .checkoutButtonDiv{
+    background-color:rgb(216, 72, 204);
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    color: white;
+    cursor: pointer;
+}
+.checkoutButtonDiv div{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+}
+.checkoutButtonDiv:hover{
+    background-color: rgb(255, 136, 235);
+    box-shadow: 0px 3px 10px rgb(255, 136, 235);
+}
